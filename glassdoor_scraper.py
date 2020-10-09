@@ -3,7 +3,7 @@ from selenium import webdriver
 import time
 import pandas as pd
 
-def get_jobs(keyword, num_jobs, verbose,):
+def get_jobs(keyword, num_jobs, verbose, path, slp_time):
     '''Gathers jobs as a dataframe, scraped from Glassdoor'''
 
 
@@ -14,7 +14,7 @@ def get_jobs(keyword, num_jobs, verbose,):
     # options.add_argument('headless')
 
     # Change the path to where chromedriver is in your home folder.
-    driver = webdriver.Chrome(executable_path="/Users/sumit/Desktop/ML-Projects/Scraping_project/chromedriver",
+    driver = webdriver.Chrome(executable_path="path/to/file",
                               options=options)
     driver.set_window_size(1120, 1000)
 
