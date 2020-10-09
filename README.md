@@ -1,12 +1,16 @@
-# Glassdoor-Salary-Prediction: A learning experience 
+# Glassdoor-Salary-Prediction: Overview 
 
 * Collected, Cleaned and Analysed data from glassdoor.com
 
-* Performed Feature Engineering on various textual, categorical and numerical features in order for them to contribute to the model.
+* Performed Feature Engineering on various textual, categorical and numerical features in order to extract the significant areas to contribute to the model
 
-* Performed predictive modelling on the data using a variety of ML algorithms.
+* Performed predictive modelling on the data using a variety of ML algorithms
 
-* Implemented a Flask endpoint.
+* Performed Hyperparameter Tuning to improve model performance
+
+* Evaluated the implemented machine learning models to get a MAE of 12.69
+
+* Implemented a Flask endpoint
 
 
 
