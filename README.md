@@ -1,7 +1,5 @@
 # Glassdoor-Salary-Prediction: A learning experience 
 
-* Developed a machine learning pipeline from scratch to develop deeper skills around various ML and statistical methods.
-
 * Collected, Cleaned and Analysed data from glassdoor.com
 
 * Performed Feature Engineering on various textual, categorical and numerical features in order for them to contribute to the model.
